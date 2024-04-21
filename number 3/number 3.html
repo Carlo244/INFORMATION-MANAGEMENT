@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weekend Activity Form</title>
+  <link rel="stylesheet" href="number3.css">
+</head>
+<body>
+
+<h1>What are you planning to do this weekend?</h1>
+
+<form action="process_form.php" method="post">
+
+  <label for="activities">Activities:</label><br>
+  <textarea id="activities" name="activities" rows="5" cols="30"></textarea><br><br>
+
+  <label for="email">Email (Optional):</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="date">Preferred Date:</label><br>
+  <input type="date" id="date" name="date"><br><br>
+
+  <label>Activity Type:</label><br>
+  <input type="radio" id="outdoor" name="activity_type" value="outdoor">
+  <label for="outdoor">Outdoor</label>
+  <input type="radio" id="indoor" name="activity_type" value="indoor">
+  <label for="indoor">Indoor</label><br><br>
+
+  <label for="transportation">Transportation:</label><br>
+  <input type="checkbox" id="car" name="transportation[]" value="car">
+  <label for="car">Car</label>
+  <input type="checkbox" id="public" name="transportation[]" value="public">
+  <label for="public">Public Transport</label><br><br>
+
+  <label for="category">Activity Category:</label><br>
+  <select id="category" name="category">
+    <option value="relax">Relaxation</option>
+    <option value="adventure">Adventure</option>
+    <option value="social">Social</option>
+    <option value="cultural">Cultural</option>
+  </select><br><br>
+
+  <label for="image">Upload Image (Optional):</label><br>
+  <input type="file" id="image" name="image"><br><br>
+
+  <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
