@@ -1,0 +1,28 @@
+body.background-image {
+    background-image: url("https://images5.alphacoders.com/134/1343995.png"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+table {
+    color: #0ab67c;
+    border: 1px solid #000000; 
+    border-collapse: collapse;
+    background-color: #efefef;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+th {
+    width: 190;
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center; 
+    border: 1px solid black;
+    padding: 5px;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
