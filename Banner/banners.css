@@ -1,0 +1,35 @@
+body {
+    background-color:#C0C4B6;
+}
+.shape {
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FBCBD7;
+    border: #B7828E solid 5px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    color: #FFFCE5;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+li {
+    list-style:none;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #fdfdfd;
+
+}
+.shape1 {
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color:#E5A3B1;
+    border: #B7828E solid 5px;
+}
